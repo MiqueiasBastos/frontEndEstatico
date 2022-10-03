@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>cadastro</title>
+</head>
+
+<body>
+     <!-- Header padrão do projeto -->
+     <header>
+
+        <div class="logo">
+    
+        </div>
+        <div class="texto">
+            <h1>Maionese</h1>
+            <h3>Venha conosco viajar na Maionese!</h3>
+            <a href="#">Descubra nossos pacotes</a>
+            <a href="#">Destinos mais procurados</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Cadastre-e para saber mais</a>
+    
+        </div>
+        <div>
+            <a href="#">entrar</a>
+        </div>
+    </header>
+
+    <!-- Main com formulário de cadastro -->
+    <main>
+        <div class="cadastro-container">
+            <form action="">
+                <Fieldset>
+                    <legend>Cadastro</legend>
+                    <div class="dados-cadastro">
+
+                        <!-- Nome -->
+                        <span class="material-symbols-outlined">person</span>
+                        <label for="nome">Nome completo</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="50"  required>
+
+                        <!-- email -->
+                        <span class="material-symbols-outlined">mail</span>
+                        <label for="email">Email</label>
+                        <input type="email" name="email-cadastro" id="email-cadastro" placeholder="Digite seu e-mail" required maxlength="30">
+
+                        <!-- CPF -->
+                        <span class="material-symbols-outlined">subtitles</span>
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf" placeholder="CPF" maxlength="11">
+
+                        <!-- data nascimento -->
+                        <span class="material-symbols-outlined">calendar_month</span>
+                        <label for="date">Data de Nascimento</label>
+                        <input type="date" name="data-nascimento" id="data-nascimento">
+
+                        <!-- telefone para contato -->
+                        <span class="material-symbols-outlined">smartphone</span>
+                        <label for="telefone">Telefone para contato</label>
+                        <input type="tel" name="tel" id="tel" placeholder="(00) 00000-0000" maxlength="11">
+
+                        <!-- endereço -->
+                        <span class="material-symbols-outlined">location_away</span>
+                        <label for="endereco">Endereço</label>
+                        <label for="endereco-estado">Estado</label>
+                        <select name="endereco-estado" id="endereco-estado">
+                            <option value="acre">Acre</option>
+                            <option value="alagoas">Alagoas</option>
+                            <option value="amapa">Amapa</option>
+                            <option value="amozonas">Amazonas</option>
+                            <option value="bahia">Bahia</option>
+                            <option value="ceará">Ceará</option>
+                            <option value="df">Distrito Federal</option>
+                            <option value="esp-santo">Espirito Santo</option>
+                            <option value="goias">Goiás</option>
+                            <option value="maranhao">Maranhão</option>
+                            <option value="mato-grosso">Mato Grosso</option>
+                            <option value="mato-grosso-sul">Mato Grosso do Sul</option>
+                            <option value="minas-gerais">Minas Gerais</option>
+                            <option value="para">Pará</option>
+                            <option value="paraiba">Paraíba</option>
+                            <option value="parana">Paraná</option>
+                            <option value="pernanbuco">Pernanbuco</option>
+                            <option value="piaui">Piauí</option>
+                            <option value="rio-jan">Rio de Janeiro</option>
+                            <option value="rio-grande-norte">Rio Grande do Norte</option>
+                            <option value="rio-grande-sul">Rio Grande do Sul</option>
+                            <option value="rondonia">Rondônia</option>
+                            <option value="roraima">Roraima</option>
+                            <option value="santa-catarina">Santa Catarina</option>
+                            <option value="sao-paulo">São Paulo</option>
+                            <option value="sergipe">Sergipe</option>
+                            <option value="tocantins">Tocantins</option>
+                        </select>
+                        <label for="endereco-cidade">Cidade</label>
+                        <input type="text" name="endereco-cidade" id="endereco-cidade" placeholder="Digite sua cidade">
+                    </div>
+
+                    <div class="cadastro-senha">
+                        <span class="material-symbols-outlined">lock</span>
+                        <label for="cadastro-senha">Senha</label>
+                        <input type="password" name="cadastro-senha" id="cadastro-senha" placeholder="Crie sua senha para login" required>
+                    </div>
+
+                    <!-- Aceite para receber informações  -->
+                    <div class="aceite-info">
+                        <label for="">Aceito receber informações</label>
+                        <input type="checkbox" name="aceite-informacoes" id="sim" value="true">Sim
+                        <input type="checkbox" name="aceite-informacoes" id="nao" value="false">Não
+                    </div>
+
+                    <!-- Botoes do Formulário -->
+                    <div class="botoes-form">
+                        <input type="button" value="Cadastrar">
+                        <input type="reset" value="Limpar Dados">
+                    </div>
+                </Fieldset>
+
+                <div class="destinos-interesse">
+                    
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer padrão do projeto -->
+    <footer></footer>
+</body>
+</html>
