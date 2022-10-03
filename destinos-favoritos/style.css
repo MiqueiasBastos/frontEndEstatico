@@ -1,0 +1,61 @@
+:root{
+  --tamanho-conteudo: calc(100% - (95vh + 600px + 600px + 200px));
+}
+/* html, body {
+  min-height: 100%;
+} */
+
+body{
+  max-width: 100vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 95vh 600px var(--tamanho-conteudo) 600px 200px;
+  grid-template-areas: 
+    "header header header header"
+    "principal principal principal principal"
+    "conteudo conteudo conteudo conteudo"
+    "destinos destinos destinos destinos"
+    "footer footer footer footer"
+  ;
+}
+
+.containerHeader{
+  grid-area: header;
+}
+
+.principal{
+  background-color: lightblue;
+  grid-area: principal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.principal img{
+  width: auto;
+  height: 400px;
+}
+
+.conteudo{
+  background-color: lightcoral;
+  grid-area: conteudo;
+}
+
+.destinos{
+  background-color: lightgreen;
+  grid-area: destinos;
+}
+
+footer{
+  background-color: lightgoldenrodyellow;
+  grid-area: footer;
+}
+
+.titulo{
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  margin: 0 auto 0.5rem;
+  line-height: 1.2;
+}
