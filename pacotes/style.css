@@ -1,0 +1,21 @@
+:root {
+    --bs-primary-rgb: 73, 156, 112;
+    --bs-primary: #499c70;
+}
+.card-img {
+    overflow: hidden;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.card {
+    cursor: pointer;
+}
+.card-img img {
+    transition: all .2s;
+}
+.card:hover .card-img img {
+    transform: scale(1.1);
+}
+.avaliacao  img {
+    width: 18px;
+}
