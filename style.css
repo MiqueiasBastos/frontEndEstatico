@@ -1,0 +1,4 @@
+html, body {
+  min-height: 100%;
+}
+/* coloquei isso na minha página da tarefa para o footer ficar no final da página, e não apenas no final da viewport  */
