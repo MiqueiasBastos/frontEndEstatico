@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="./style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <header class="containerHeader">
@@ -53,36 +54,48 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugit nemo vero eligendi accusamus sed repellendus exercitationem, nesciunt iste iure quam dolorum incidunt quis aliquam, porro necessitatibus nam in illum?</p>
       </div>
       <div class="informacoes">
-          <div>
-            <span>Tags</span>
-            <a href="#">Resource</a>
-            <a href="#">Project</a>
-            <span>Date</span>
-            <span>25-04-2017</span>
+        <div class="card">
+          <div class="card-header">
+            <span class="material-icons yellow">star star star star star</span>
           </div>
+          <div class="card-body">
+            <div class="card-title">
+              <span class="material-icons">flight_takeoff</span>
+              <h5 class="card-title">30 Nov 2022</h5>
+            </div>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-outline-success">Saiba mais</a>
+          </div>
+        </div>
       </div>
     </section>
     <section class="destinos">
-      <div class="mais-destinnos">
-        <h3 class="text-center">Mais viagens dos sonhos</h3>
-        <div class="row gallery">
-            <figure class="col-md-4 col-lg-3 figure">
-                <div class="item"><a href="#"><img class="img-fluid scale-on-hover figure-img rounded" src="../imagens/rio-de-janeiro.jpg"></a></div>
-                <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
-            </figure>
-            <figure class="col-md-4 col-lg-3 figure">
-                <div class="item"><a href="#"><img class="img-fluid scale-on-hover figure-img rounded" src="../imagens/Foz-do-Iguacu-PR.jpg"></a></div>
-                <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
-            </figure>
-            <figure class="col-md-4 col-lg-3 figure">
-                <div class="item"><a href="#"><img class="img-fluid scale-on-hover figure-img rounded" src="../imagens/Jalapao-TO.jpeg"></a></div>
-                <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
-            </figure>
-            <figure class="col-md-4 col-lg-3 figure">
-                <div class="item"><a href="#"><img class="img-fluid scale-on-hover figure-img rounded" src="../imagens/Salvador-BA.jpg"></a></div>
-                <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
-            </figure>
+      <div class="card-group">
+        <div class="card text-black-50 card-galery">
+          <a href="./index.html"><img src="../imagens/Foz-do-Iguacu-PR.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-img-overlay">
+            <h5 class="card-title">Cataratas do Iguaçu - PR</h5>
+          </div>
         </div>
+        <div class="card text-black-50 card-galery">
+          <a href="./index.html"><img src="../imagens/Jalapao-TO.jpeg" class="card-img-top" alt="..."></a>
+          <div class="card-img-overlay">
+            <h5 class="card-title">Jalapao-TO</h5>
+          </div>
+        </div>
+        <div class="card text-black-50 card-galery">
+          <a href="./index.html"><img src="../imagens/rio-de-janeiro.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-img-overlay">
+            <h5 class="card-title">Rio de Janeiro - RJ</h5>
+          </div>
+        </div>
+        <div class="card text-black-50 card-galery">
+          <a href="./index.html"><img src="../imagens/Salvador-BA.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-img-overlay">
+            <h5 class="card-title">Salvador - BA</h5>
+          </div>
+        </div>
+      </div>
     </div>
     </section>
   </main>
