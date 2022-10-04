@@ -71,5 +71,37 @@
 }
 
 .section-title img {
-    vertical-align: text-top
+    vertical-align: middle
+}
+
+@media (max-width: 991px){
+    .card {
+        width: 200px
+    }
+    .carousel {
+        width: 688px;
+    }
+}
+@media (max-width: 767px){
+    .card {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .carousel {
+        width: 322px;
+        text-align: center;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: #ffffff;
+        position: static;
+        width: 32px;
+        display: inline;
+        height: 32px;
+        border-radius: 50%;
+        opacity: 1;
+        top: 0;
+        transform: translateY(0);
+    }
 }
