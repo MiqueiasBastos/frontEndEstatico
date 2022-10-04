@@ -1,0 +1,138 @@
+html, body {
+    min-height: 100%;
+  }
+  /* coloquei isso na minha página da tarefa para o footer ficar no final da página, e não apenas no final da viewport  */
+  
+  body {
+    min-height: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(32, 36, 32);
+    background-size: cover;
+    background-color: #f7f7f7;
+  }
+
+  .login-container{
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right bottom, rgb(157, 204, 155, 0.8), rgb(42, 131, 107, 0.8)), url('https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80');
+    /* background-image: linear-gradient(to right bottom, rgb(157, 204, 155, 0.8), rgb(42, 131, 107, 0.8));
+    background-repeat: no-repeat;
+    background-size:cover; */
+    /* transform: skewY(-7deg); }
+    .login-container >*{
+      transform: skewY(7deg); */
+  }
+
+
+  .form-container{
+    width: 500px;
+    padding: 1%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgb(42, 131, 107);
+    color: #024053;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .form-container:hover{
+    box-shadow: 10px 10px 2px 0 rgb(42, 131, 107);
+    transform: scale(1.1)
+    /* -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2); */
+  }
+
+  /* .form-container:hover * {
+    transform:skewY(-7deg);
+} */
+
+  form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  label, input{
+    display: block;
+    justify-content: center;
+    width: 90%;
+    font-weight: 500;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    height: 30px;
+  }
+
+  input{
+    box-shadow: 2px 2px 2px 0 rgb(42, 131, 107);
+  }
+
+  label{
+    margin-top: 2%;
+    font-size: medium;
+  }
+
+  input:focus{
+    height: 35px;
+    caret-color: #024053;
+    font-size: 16px;
+  }
+
+  #botao-entrar {
+    align-self: center;
+    text-decoration: none;
+    font-weight: 500;
+    width: 91%;
+    height: 40px;
+    margin: 2rem 0rem;
+    padding: 0.35em 0.7em;
+    background-color: #d5e4cf;
+    color: #024053;
+    border: 2.5px solid transparent;
+    border-left: 2.5px solid rgb(42, 131, 107);
+    box-shadow: 2px 2px 2px 0 rgb(42, 131, 107);
+  }
+  
+  #botao-entrar:hover{
+    cursor: pointer;
+    background-color: rgb(42, 131, 107);
+    border: 2.5px solid #024053;
+    transition: .6s;
+  }
+
+  .form-container a{
+    text-decoration: none;
+    color: #d5e4cf;
+    font-size: medium;
+    text-align: right;
+    cursor: pointer;
+    border-left: 2.5px solid rgb(42, 131, 107);
+    padding: 0.35rem;
+  }
+
+  .form-container a:hover{
+    cursor: pointer;
+    background-color: rgb(42, 131, 107);
+    border: 2.5px solid #024053;
+    transition: .6s;
+    box-shadow: 2px 2px 2px 0 rgb(42, 131, 107);
+  }
+  .registro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 500;
+  }
+
+  .registro-container p{
+    margin-top: 3rem;
+    font-size: medium;
+  }
+

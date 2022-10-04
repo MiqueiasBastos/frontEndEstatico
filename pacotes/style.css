@@ -1,0 +1,75 @@
+:root {
+    --bs-primary-rgb: 73, 156, 112;
+    --bs-primary: #499c70;
+}
+
+.btn-primary {
+    --bs-btn-bg: #499c70;
+    --bs-btn-border-color: #499c70;
+    --bs-btn-hover-bg: #54c488;
+    --bs-btn-hover-border-color: #349a63;
+    --bs-btn-active-bg: #349a63;
+    --bs-btn-active-border-color: #30905d;
+    --bs-btn-disabled-bg: #499c70;
+    --bs-btn-disabled-border-color: #499c70;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #499c70;
+    --bs-btn-border-color: #499c70;
+    --bs-btn-hover-bg: #499c70;
+    --bs-btn-hover-border-color: #499c70;
+    --bs-btn-active-bg: #499c70;
+    --bs-btn-active-border-color: #499c70;
+    --bs-btn-disabled-color: #499c70;
+    --bs-btn-disabled-border-color: #499c70;
+}
+
+.card-img {
+    overflow: hidden;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.card {
+    width: 250px;
+}
+
+.card-img img {
+    transition: all .2s;
+}
+
+.card:hover .card-img img {
+    transform: scale(1.1);
+}
+
+.avaliacao img {
+    width: 18px;
+}
+
+.carousel {
+    width: 838px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #ffffff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../imagens/icones/navigate_before.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../imagens/icones/navigate_next.svg);
+}
+
+.section-title img {
+    vertical-align: text-top
+}
