@@ -21,7 +21,7 @@ main{
   grid-area: main;
 }
 
-
+/* estilização para imagem principal */
 .principal{
   display: flex;
   flex-direction: column;
@@ -51,6 +51,7 @@ main{
   margin: 0;
 }
 
+/* estilização do conteúdo */
 .conteudo{
   max-width: 80vw;
   margin: 20px auto 20px;
@@ -58,7 +59,6 @@ main{
   gap: 20px;
   justify-content: space-evenly;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 .descricao{
   padding: 1rem;
@@ -79,6 +79,7 @@ main{
   gap: 15px;
 }
 
+/* estilização galeria de imagens */
 .destinos{
   margin: 0 auto 50px;
   max-width: 80vw;
@@ -115,6 +116,7 @@ main{
   inset:initial;
 }
 
+/* estilização do footer */
 footer{
   display: flex;
   justify-content: space-evenly;
@@ -152,6 +154,7 @@ footer{
   scale: 1.2;
 }
 
+/* responsividade */
 @media (max-width: 500px) {
   .conteudo{
     flex-wrap: wrap;
