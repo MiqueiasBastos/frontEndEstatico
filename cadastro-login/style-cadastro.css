@@ -1,0 +1,63 @@
+html {
+    min-height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(32, 36, 32);
+    background-size: cover;
+    background-color: #f7f7f7;
+  }
+
+  main{
+    display: flex;
+    margin: 0 auto;
+    /* max-width: 500px;
+    min-height: 100vh; */
+}
+
+figure{
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+
+.cadastro-container{
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados-cadastro{
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input:not([type="radio"]){
+  width: 100%;
+  height: 48px;
+  margin-bottom: 2%;
+}
+label{
+  height: 30px;
+  margin: 5% 0 5% 0;
+}
+
+.material-symbols-outlined{
+  margin: 0;
+}
+
+input[type="radio"]{
+  min-height: 30px;
+  margin-bottom: 3%;
+}
+
+.btn-cadastrar{
+  flex: 1;
+}
+
+.btn-redefinir{
+  flex: 2;
+}
