@@ -1,0 +1,37 @@
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #136B69;
+  grid-area: footer;
+  height: 200px;
+}
+#footer-logo {
+  width: 7em;
+  height: 7em;
+  transform: rotate(45deg);
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.links a{
+  text-decoration: none;
+  margin: 0 5px;
+  color: rgba(238, 238, 238, 0.74);
+}
+.links a:hover{
+  color: #eee;
+}
+.redes-icons img{
+  width: 3rem;
+  height: auto;
+}
+.footer-links p{
+  color: rgba(238, 238, 238, 0.74);
+}
+.redes-icons img:hover{
+  scale: 1.2;
+}

@@ -117,12 +117,13 @@ main{
 }
 
 /* estilização do footer */
-footer{
+/* footer{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #136B69;
   grid-area: footer;
+  height: 200px;
 }
 #footer-logo {
   width: 7em;
@@ -152,7 +153,7 @@ footer{
 }
 .redes-icons img:hover{
   scale: 1.2;
-}
+} */
 
 /* responsividade */
 @media (max-width: 500px) {
