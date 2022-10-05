@@ -49,10 +49,10 @@
     <!-- Main com formulário de cadastro -->
     <main>
 
-        <figure>
-            <img src="/frontEndEstatico/imagens/icones/travel_mode.svg" alt="" width="400px">
+        <figure class="img-cadastro">
+            <img src="/frontEndEstatico/imagens/icones/travel_mode.svg" alt="">
         </figure>
-
+           
         <div class="cadastro-container">
 
             <form action="#">
@@ -60,17 +60,16 @@
                     <legend>Cadastro</legend>
 
                     <section class="dados-cadastro">
-                        
                         <h3>Dados Pessoais</h3>
 
                         <!-- Nome -->
                         <span class="material-symbols-outlined">person</span>
-                        <label for="nome">Nome completo</label>
+                        <label for="nome">Nome Completo</label>
                         <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" maxlength="50"  required>
 
                         <!-- email -->
                         <span class="material-symbols-outlined">mail</span>
-                        <label for="email">Email</label>
+                        <label for="email">E-mail</label>
                         <input type="email" name="email-cadastro" id="email-cadastro" placeholder="Digite seu e-mail" required maxlength="30">
 
                         <!-- CPF -->
@@ -85,59 +84,21 @@
 
                         <!-- telefone para contato -->
                         <span class="material-symbols-outlined">smartphone</span>
-                        <label for="telefone">Telefone para contato</label>
+                        <label for="telefone">Telefone para Contato</label>
                         <input type="tel" name="tel" id="tel" placeholder="(00) 00000-0000" maxlength="11">
 
-                        <!-- endereço
-                        <span class="material-symbols-outlined">location_away</span>
-                        <label for="endereco">Endereço</label>
-                        <label for="endereco-estado">Estado</label>
-                        <select name="endereco-estado" id="endereco-estado">
-                            <option value="acre">Acre</option>
-                            <option value="alagoas">Alagoas</option>
-                            <option value="amapa">Amapa</option>
-                            <option value="amozonas">Amazonas</option>
-                            <option value="bahia">Bahia</option>
-                            <option value="ceará">Ceará</option>
-                            <option value="df">Distrito Federal</option>
-                            <option value="esp-santo">Espirito Santo</option>
-                            <option value="goias">Goiás</option>
-                            <option value="maranhao">Maranhão</option>
-                            <option value="mato-grosso">Mato Grosso</option>
-                            <option value="mato-grosso-sul">Mato Grosso do Sul</option>
-                            <option value="minas-gerais">Minas Gerais</option>
-                            <option value="para">Pará</option>
-                            <option value="paraiba">Paraíba</option>
-                            <option value="parana">Paraná</option>
-                            <option value="pernanbuco">Pernanbuco</option>
-                            <option value="piaui">Piauí</option>
-                            <option value="rio-jan">Rio de Janeiro</option>
-                            <option value="rio-grande-norte">Rio Grande do Norte</option>
-                            <option value="rio-grande-sul">Rio Grande do Sul</option>
-                            <option value="rondonia">Rondônia</option>
-                            <option value="roraima">Roraima</option>
-                            <option value="santa-catarina">Santa Catarina</option>
-                            <option value="sao-paulo">São Paulo</option>
-                            <option value="sergipe">Sergipe</option>
-                            <option value="tocantins">Tocantins</option>
-                        </select>
-
-                        <label for="endereco-cidade">Cidade</label>
-                        <input type="text" name="endereco-cidade" id="endereco-cidade" placeholder="Digite sua cidade">
-                   
-                    </section> -->
-
                     <section class="cadastro-senha">
-
-                        <h3>Cadastro de senha</h3>
+                        <h3>Senha</h3>
                         <span class="material-symbols-outlined">lock</span>
                         <label for="cadastro-senha">Senha</label>
                         <input type="password" name="cadastro-senha" id="cadastro-senha" placeholder="Crie sua senha para login" required>
+                        <label for="cadastro-senha">Confirme sua Senha</label>
+                        <input type="password" name="cadastro-senha" id="confirma-senha" placeholder="Confirme sua senha" required>
                     </section>
 
                     <!-- Aceite para receber informações  -->
                     <section class="aceite-info">
-                        <label for="">Aceito receber  Informações por E-mail</label>
+                        <label for="">Aceito receber  informações por e-mail</label>
                         <input type="radio" name="aceite-informacoes" id="sim">
                         <label for="sim">Sim</label>
                         <input type="radio" name="aceite-informacoes" id="nao">
@@ -146,8 +107,8 @@
 
                     <!-- Botoes do Formulário -->
                     <section class="botoes-form">
-                        <button id="btn-cadastrar">Cadastrar</button>
-                        <button id="btn-redefinir">Redefinir</button>
+                        <button id="btn-cadastrar" href="/frontEndEstatico/index.html">Cadastrar</button>
+                        <button id="btn-redefinir" href="#">Redefinir</button>
 
                     </section>
 

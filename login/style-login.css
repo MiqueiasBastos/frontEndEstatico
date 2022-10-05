@@ -1,8 +1,7 @@
 html, body {
     min-height: 100%;
   }
-  /* coloquei isso na minha página da tarefa para o footer ficar no final da página, e não apenas no final da viewport  */
-  
+
   body {
     min-height: 100%;
     font-family: 'Nunito', sans-serif;
@@ -17,12 +16,6 @@ html, body {
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to right bottom, rgb(157, 204, 155, 0.8), rgb(42, 131, 107, 0.8)), url('https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80');
-    /* background-image: linear-gradient(to right bottom, rgb(157, 204, 155, 0.8), rgb(42, 131, 107, 0.8));
-    background-repeat: no-repeat;
-    background-size:cover; */
-    /* transform: skewY(-7deg); }
-    .login-container >*{
-      transform: skewY(7deg); */
   }
 
 
@@ -42,32 +35,26 @@ html, body {
   .form-container:hover{
     box-shadow: 10px 10px 2px 0 rgb(42, 131, 107);
     transform: scale(1.1)
-    /* -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2); */
   }
 
-  /* .form-container:hover * {
-    transform:skewY(-7deg);
-} */
 
   form {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
   }
   
-  label, input{
-    display: block;
-    justify-content: center;
-    width: 90%;
+  label, 
+  input{
+    width: 95%;
     font-weight: 500;
     font-size: 1rem;
     outline: none;
     border: none;
-    height: 30px;
+    height: 48px;
   }
 
   input{
@@ -75,22 +62,21 @@ html, body {
   }
 
   label{
-    margin-top: 2%;
-    font-size: medium;
+    border-top: 2%;
+    font-size: 1.1rem;
+    font-weight: 600;
   }
 
   input:focus{
-    height: 35px;
     caret-color: #024053;
-    font-size: 16px;
   }
 
   #botao-entrar {
     align-self: center;
     text-decoration: none;
     font-weight: 500;
-    width: 91%;
-    height: 40px;
+    width: 96%;
+    height: 48px;
     margin: 2rem 0rem;
     padding: 0.35em 0.7em;
     background-color: #d5e4cf;
@@ -98,6 +84,7 @@ html, body {
     border: 2.5px solid transparent;
     border-left: 2.5px solid rgb(42, 131, 107);
     box-shadow: 2px 2px 2px 0 rgb(42, 131, 107);
+    font-size: 1.1rem;
   }
   
   #botao-entrar:hover{
@@ -110,17 +97,14 @@ html, body {
   .form-container a{
     text-decoration: none;
     color: #d5e4cf;
-    font-size: medium;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
-    border-left: 2.5px solid rgb(42, 131, 107);
-    padding: 0.35rem;
+    padding: 0.5rem;
   }
 
   .form-container a:hover{
     cursor: pointer;
     background-color: rgb(42, 131, 107);
-    border: 2.5px solid #024053;
     transition: .6s;
     box-shadow: 2px 2px 2px 0 rgb(42, 131, 107);
   }
@@ -129,6 +113,7 @@ html, body {
     flex-direction: column;
     align-items: flex-end;
     font-weight: 500;
+    font-size: 1.1rem;
   }
 
   .registro-container p{
