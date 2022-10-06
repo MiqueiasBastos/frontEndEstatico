@@ -15,6 +15,7 @@
 
     <!-- css home -->
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../menu.css">
 
     <!-- css footer  -->
     <link rel="stylesheet" href="../footer/footer.css">
@@ -22,19 +23,23 @@
 
 <body>
     <!-- Header padrão -->
-    <header class="containerHeader">
-        <nav class="navBar">
+    <nav class="navBar">
+        <div class="logo">
+            <img src="/mayonnaise.png" alt="">
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <div class="menu-hamburguer">
+            <span></span>
+        </div>
+        <div class="lista">
             <ul>
                 <li>Sobre nós</li>
                 <li>Destinos</li>
                 <li>Pacotes</li>
             </ul>
-        </nav>
-
-        <div class="logo">
-            <img src="/mayonnaise.png" alt="">
         </div>
-
+    </nav>
+    <header class="containerHeader">
         <div class="texto">
             <h1>Maionese</h1>
             <h3>Venha conosco viajar na Maionese!</h3>
@@ -139,7 +144,7 @@
             </div>
         </div>
     </div>
-    <div class="container pt-5">
+    <main class="container pt-5">
         <section class="row-2 d-flex flex-column flex-xl-row mb-5">
             <div class="col d-flex flex-column align-items-center align-items-xl-start justify-content-center">
                 <h2 class="display-5 fw-bold section-title text-center text-xl-start w-100"><img src="../imagens/icones/luggage.svg" alt=""> Pacotes</h2>
@@ -975,7 +980,7 @@
                 </div>
             </div>
         </section>
-    </div>
+    </main>
     <footer>
         <section class="footer-links">
             <div class="links">
