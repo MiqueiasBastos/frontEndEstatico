@@ -32,12 +32,13 @@ main{
   width: 80vw;
   height: 500px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
 }
 .principal-img img{
   height: 100%;
   width: 100%;
   object-fit: cover;
-  
+  border-radius: 10px; 
 }
 .titulo{
   font-weight: bold;
@@ -116,48 +117,13 @@ main{
   inset:initial;
 }
 
-/* estilização do footer */
-/* footer{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #136B69;
-  grid-area: footer;
-  height: 200px;
-}
-#footer-logo {
-  width: 7em;
-  height: 7em;
-  transform: rotate(45deg);
-}
-.footer-links{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-.links a{
-  text-decoration: none;
-  margin: 0 5px;
-  color: rgba(238, 238, 238, 0.74);
-}
-.links a:hover{
-  color: #eee;
-}
-.redes-icons img{
-  width: 3rem;
-  height: auto;
-}
-.footer-links p{
-  color: rgba(238, 238, 238, 0.74);
-}
-.redes-icons img:hover{
-  scale: 1.2;
-} */
-
 /* responsividade */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .conteudo{
     flex-wrap: wrap;
+  }
+  .card-group {
+    /* display: flex; */
+    flex-direction: column !important;
   }
 }
