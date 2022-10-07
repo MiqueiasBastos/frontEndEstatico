@@ -11,8 +11,12 @@ body {
   background-color: #f7f7f7;
 }
 
+.logo {
+  display: none;
+}
+
 .login-container {
-  height: 97vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,10 +83,10 @@ input:focus {
   align-self: center;
   text-decoration: none;
   font-weight: 500;
-  width: 96%;
-  height: 48px;
-  margin: 2rem 0rem;
-  padding: 0.35em 0.7em;
+  width: 92%;
+  height: 30px;
+  margin: 2rem;
+  padding: 0.35em;
   background-color: #d5e4cf;
   color: #024053;
   border: 2.5px solid transparent;
@@ -123,4 +127,10 @@ input:focus {
 .registro-container p {
   margin-top: 3rem;
   font-size: medium;
+}
+
+@media (max-width: 991px) {
+  .form-container {
+    margin: 3%;
+  }
 }

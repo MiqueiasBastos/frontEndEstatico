@@ -27,6 +27,7 @@ main {
 .img-cadastro img {
   width: 100%;
 }
+
 .cadastro-container {
   display: flex;
   align-items: baseline;
@@ -38,7 +39,7 @@ fieldset {
   border: 3px solid #024053;
   color: #024053;
   padding: 1.5%;
-  box-shadow: 5px 5px 5px 0 rgb(22, 59, 49);
+  box-shadow: 5px 5px 10px 5px rgb(22, 59, 49);
 }
 
 h3 {
@@ -127,4 +128,32 @@ input[type="radio"] {
 input:focus {
   caret-color: #024053;
   font-size: 16px;
+}
+
+footer {
+  margin-top: 2%;
+}
+
+@media (max-width: 991px) {
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .img-cadastro {
+    display: none;
+    width: 0%;
+  }
+
+  .cadastro-container {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 640px) {
+  label,
+  input:not([type="radio"]) {
+    width: 98%;
+  }
 }

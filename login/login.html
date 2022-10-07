@@ -13,13 +13,32 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,500;0,700;0,1000;1,200;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../menu.css">
     <link rel="stylesheet" href="./style-login.css">
 
     <title>Login</title>
 </head>
 
 <body>
+    <!-- Menu Hamburguer padrão do projeto -->
+    <nav class="navBar">
+        <div class="logo">
+            <img src="/mayonnaise.png" alt="">
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <div class="menu-hamburguer">
+            <span></span>
+        </div>
+        <div class="lista">
+            <ul>
+                <li>Sobre nós</li>
+                <li>Destinos</li>
+                <li>Pacotes</li>
+            </ul>
+        </div>
+    </nav>
+
     <main>
         <div class="login-container">
 
@@ -33,15 +52,16 @@
                     <label for="password">Senha</label>
                     <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
                     <!-- botão entrar -->
-                    <input type="button" id="botao-entrar" value="Entrar">
+                    <!-- <button type="button" href="../index.html" id="botao-entrar">Entrar</button> -->
+                    <a href="../index.html" id="botao-entrar">Entrar</a>
                 </form>
 
                 <div class="registro-container">
                     <a href="#">Esqueceu a senha?</a>
                     <p>Ainda não tem uma conta?</p>
-                    <a href="/frontEndEstatico/cadastro/cadastro.html">Cadastre-se</a>
+                    <a href="../cadastro/cadastro.html">Cadastre-se</a>
                 </div>
-                <a href="/frontEndEstatico/index.html">Voltar</a>
+                <a href="../index.html">Voltar</a>
             </div>
 
 
