@@ -88,3 +88,45 @@ body {
     color: #d5e4cf;
     border-left: 2.5px solid rgb(42, 131, 107);
 }
+
+/* about */
+
+.sobre {
+    margin-top: 1.5em;
+    background-color: #d5e4cf;
+    box-sizing: border-box;
+    box-shadow: #024053;
+    min-height: 85vh;
+}
+
+.textoSobre {
+    border-bottom: none;
+    margin: 1.5em 0.25em;
+    padding: 0em 1.5em;
+}
+
+.sobre h3 {
+    font-size: 1.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(157, 204, 155), rgb(42, 131, 107));
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all .2s;
+    margin: 1.5em 0.25em;
+    padding: 0em 1.5em;
+}
+
+.sobre h3:hover {
+    transform: scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.textoSobre {
+    border: 2.5px solid rgb(42, 131, 107);
+    border-top: none;
+    border-bottom: none;
+    padding: 0em 1.5em;
+}
