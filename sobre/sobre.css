@@ -1,0 +1,44 @@
+.cards-equipe{
+  max-width: 80vw;
+  margin: 0 auto 20px;
+}
+.cards-equipe h3 {
+  font-size: 1.5em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 700;
+  background-image: linear-gradient(to right, rgb(157, 204, 155), rgb(42, 131, 107));
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all .2s;
+  margin: 1.5em 0.25em;
+  padding: 0em 1.5em;
+}
+.cards-equipe h3:hover {
+  transform: scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.avatar{
+  padding: 5px;
+}
+.avatar img{
+  border-radius: 50%!important;
+  box-shadow: 0px 2px 10px rgba(0,0,0,.15);
+}
+.perfil-redes img{
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+.perfil-redes img:hover{
+  scale: 1.2;
+}
+.card{
+  box-shadow: 0px 2px 10px rgba(0,0,0,.15);
+  transition: .4s;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 10px 10px rgba(0,0,0,.15) !important;
+}
