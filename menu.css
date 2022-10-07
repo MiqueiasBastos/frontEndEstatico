@@ -52,6 +52,8 @@
     }
 
     .lista {
+        position: absolute;
+        right: 0;
         transform-origin: 100%;
         transform: scaleX(0);
         opacity: 0;
