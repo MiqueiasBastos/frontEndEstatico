@@ -78,6 +78,10 @@
     vertical-align: middle
 }
 
+.lista {
+    margin-top: 1.35em;
+}
+
 @media (max-width: 991px){
     .card {
         width: 200px

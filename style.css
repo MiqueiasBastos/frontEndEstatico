@@ -64,7 +64,9 @@ body {
     color: #024053;
     border-left: 2.5px solid rgb(42, 131, 107);
 }
-
+.textoLinks a:hover {
+    color: #024053;
+}
 .navBar {
     display: flex;
     flex-direction: row;
@@ -88,6 +90,16 @@ body {
     color: #d5e4cf;
     border-left: 2.5px solid rgb(42, 131, 107);
 }
+
+.lista li a {
+    color: #d5e4cf;
+    text-decoration: none;
+}
+
+.lista li a:hover {
+    text-decoration: underline;
+}
+
 
 /* about */
 
