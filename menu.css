@@ -76,10 +76,15 @@
 
     .lista ul li {
         margin: 0.1em;
+        padding: 0;
     }
 
     .lista ul li a {
         color: #2a836b;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0.35em 0.7em;
     }
 
     .lista ul li a:hover {
