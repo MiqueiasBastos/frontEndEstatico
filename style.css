@@ -125,8 +125,9 @@ body {
 .lista a {
     color: #d5e4cf !important;
     text-decoration: none;
-    
+
 }
+
 .lista a:hover {
     text-decoration: underline;
 }
@@ -172,4 +173,9 @@ body {
     border-top: none;
     border-bottom: none;
     padding: 0em 1.5em;
+}
+
+.carrosselSobre {
+    margin: 0 auto;
+    max-width: 86vw;
 }
