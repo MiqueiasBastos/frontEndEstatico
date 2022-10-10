@@ -39,6 +39,7 @@ fieldset {
   border: 3px solid #024053;
   color: #024053;
   padding: 1.5%;
+  border-radius: 1%;
   box-shadow: 5px 5px 10px 5px rgb(22, 59, 49);
 }
 
@@ -61,7 +62,8 @@ input:not([type="radio"]) {
   outline: none;
   color: #024053;
   border-left: 2.5px solid #024053;
-  box-shadow: 2px 2px 3px 0 #024053;
+  box-shadow: 2px 0px 3px 0 #024053;
+  border-radius: 2%;
 }
 
 label {
@@ -77,6 +79,7 @@ label {
 
 input[type="radio"] {
   min-height: 30px;
+  box-sizing: border-box;
   accent-color: #024053;
 }
 
@@ -97,6 +100,7 @@ input[type="radio"] {
   font-size: 1rem;
   font-weight: 550;
   box-shadow: 2px 2px 2px 0 #024053;
+  border-radius: 2%;
 }
 
 #btn-redefinir {
@@ -108,6 +112,7 @@ input[type="radio"] {
   font-size: 1rem;
   font-weight: 550;
   box-shadow: 2px 2px 2px 0 #024053;
+  border-radius: 2%;
 }
 
 #btn-cadastrar:hover {
