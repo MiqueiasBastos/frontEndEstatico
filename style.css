@@ -16,8 +16,6 @@ body {
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .logo img {
@@ -204,5 +202,17 @@ body {
 
     .textoLinks {
         display: none;
+    }
+
+    .logo img {
+        margin: 15px;
+        width: 5em;
+        position: absolute;
+    }
+
+    .logo img {
+        margin: 15px;
+        width: 3.5em;
+        position: absolute;
     }
 }
