@@ -13,7 +13,7 @@ body {
     background-image: linear-gradient(to right bottom, rgb(157, 204, 155, 0.8), rgb(42, 131, 107, 0.8)), url('https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80');
     background-repeat: no-repeat;
     background-position-y: 42%;
-    background-position-x: cover;
+    background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
     /* display: flex;
@@ -112,6 +112,10 @@ body {
 
 .navBar ul {
     list-style-type: none;
+}
+
+.lista {
+    margin-top: 1.35em;
 }
 
 .lista li {
